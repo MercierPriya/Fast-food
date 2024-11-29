@@ -70,6 +70,15 @@
     employeesElement.textContent = `Employés : ${restaurant.employes}`;
     infoDiv.appendChild(employeesElement);
 
+    const dateElement = document.createElement("p");
+    dateElement.textContent = `Date Creation: ${restaurant.dateCreation}`;
+    infoDiv.appendChild(dateElement);
+
+    const horairesElement = document.createElement("p");
+    dateElement.textContent = `Horaires : ${restaurant.horaires}`;
+    infoDiv.appendChild(horairesElement);
+
+
     // Ajouter les informations au conteneur principal
     restaurantDiv.appendChild(infoDiv);
 
